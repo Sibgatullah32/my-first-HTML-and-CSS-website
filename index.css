@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+   background-color: aquamarine;
+}
+/* header{
+    padding: 50px;
+    text-align: center;
+    background-color:black;
+    color: white;
+    font-size: 40px;
+} */
+nav{
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding: 14px 20px;
+}
+nav a:hover{
+    background-color: ;
+}
+section{
+    text-align: center;
+    padding-top: 40px;
+    height: 100vh;
+}
+section:nth-child(even){
+    background-color:#ececec;
+}
+iframe{
+    padding: 0px 5px;
+}
+.h1, h2, h3 {
+    padding-bottom: 40px;
+    font-size: 30px;
+
+}
+footer{
+    text-align: center;
+    overflow: hidden;
+    
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
+.copy{
+    float: right;
+}
+footer{
+    text-align: center;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+}
+.header video{
+    width: 100%;
+   height: 200px;
+   position: relative;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    
+}
+.flex-login-margin {
+    margin-left: auto;
+}
+.main-btn:hover{
+    background-color: white;
+    color: black;
+}
+section h3 span{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,7,150,1) 50%, rgba(48,196,55,1) 77%);
+    color: white;
+    padding: 20px 55px;
+    border-radius: 15px;
+}
+nav{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.carousel {
+    background: #EEE;
+  }
+  .carousel-cell {
+    width: 100%;
+    margin-right: 10px;
+}
+  /* .carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  /* .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }  */
+   
+
+@media screen and (max-width:700px){
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .flex-login-margin{
+        margin-left: 0;
+    }
+}
